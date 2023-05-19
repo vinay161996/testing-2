@@ -4,7 +4,7 @@ const SideNavbar = () => {
     return (
         <div className='sideNavbar'>
             <div className="container">
-                SideBar
+                SideBar updated
             </div>
         </div>
     )

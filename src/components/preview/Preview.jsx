@@ -1,11 +1,7 @@
-import './Preview.scss'
+import "./Preview.scss";
 
 const Preview = () => {
-    return (
-        <>
-            Preview
-        </>
-    )
-}
+  return <>Preview updated</>;
+};
 
-export default Preview
+export default Preview;

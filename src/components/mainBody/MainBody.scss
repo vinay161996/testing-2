@@ -1,22 +1,21 @@
 .mainBody {
+  .container {
+    display: flex;
+    flex-direction: column;
 
-    .container {
-        display: flex;
-        flex-direction: column;
-
-        .top {
-            min-height: 25vh;
-            // background-color: red;
-        }
-
-        .mid {
-            min-height: 65vh;
-            // background-color: blue;
-        }
-
-        .bottom {
-            min-height: 10vh;
-            // background-color: yellow;
-        }
+    .top {
+      min-height: 25vh;
+      // background-color: red;
     }
+
+    .mid {
+      min-height: 65vh;
+      // background-color: blue;
+    }
+
+    .bottom {
+      min-height: 10vh;
+      // background-color: yellow;
+    }
+  }
 }

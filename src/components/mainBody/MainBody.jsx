@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, useParams } from 'react-router-dom'
 import './MainBody.scss'
 
 import Home from '../home/Home';
@@ -11,6 +11,9 @@ import Footer from './footer/Footer'
 
 
 const MainBody = () => {
+
+    console.log(useParams())
+
     return (
         <div className='mainBody'>
             <div className="container">
@@ -27,6 +30,7 @@ const MainBody = () => {
                 </div>
                 <div className="bottom">
                     <Footer />
+                    
                 </div>
             </div>
         </div>

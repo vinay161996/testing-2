@@ -1,11 +1,34 @@
+@import '../../mixins.scss';
+
 .mainBody {
   .container {
     display: flex;
     flex-direction: column;
 
+<<<<<<< HEAD
     .top {
       min-height: 25vh;
       // background-color: red;
+=======
+    .container {
+        display: flex;
+        flex-direction: column;
+
+        .top {
+            min-height: 10vh;
+            background-color: red;
+        }
+
+        .mid {
+            min-height: 80vh;
+            background-color: blue;
+        }
+
+        .bottom {
+            min-height: 10vh;
+            background-color: yellow;
+        }
+>>>>>>> 6a456e37ded27deaa60726a15b3d0ef98752b358
     }
 
     .mid {

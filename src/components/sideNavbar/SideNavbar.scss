@@ -1,3 +1,30 @@
 .sideNavbar {
-    background: #02354F;
+  background: #02354f;
+
+  .heading {
+    color: #fff;
+    position: absolute;
+    width: 142px;
+    height: 36px;
+    top: 25px;
+    left: 45px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    @include md {
+      top: 145px;
+    }
+  }
+  .border {
+    position: absolute;
+    width: 180px;
+    height: 0px;
+    left: 25px;
+    top: 75px;
+
+    border: 1.8px solid #4f4f4f;
+  }
 }
